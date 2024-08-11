@@ -27,7 +27,7 @@ async function main() {
 
   const [signer] = await ethers.getSigners()
 
-  const contractFactory = await ethers.getContractFactory('PERC20Sample')
+  const contractFactory = await ethers.getContractFactory('PERC20SWatch')
   const contract = contractFactory.attach(contractAddress)
 
   const functionName = 'mint'

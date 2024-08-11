@@ -3,7 +3,7 @@ import fs from 'fs'
 import path from 'path'
 
 async function main() {
-  const Contract = await ethers.getContractFactory('PERC20Sample')
+  const Contract = await ethers.getContractFactory('PERC20SWatch')
 
   console.log('Deploying PERC20 token...')
   const contract = await Contract.deploy()

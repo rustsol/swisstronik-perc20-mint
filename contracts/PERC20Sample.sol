@@ -6,8 +6,8 @@ import "./PERC20.sol";
 /**
  * @dev Sample implementation of the {PERC20} contract.
  */
-contract PERC20Sample is PERC20 {
-    constructor() PERC20("IZYY", "pIZZY") {}
+contract PERC20SWatch is PERC20 {
+    constructor() PERC20("SwissWatch", "eSWATCH") {}
 
     /// @dev Wraps SWTR to PSWTR.
     receive() external payable {
